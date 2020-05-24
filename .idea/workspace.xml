@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d40ec029-dbf5-4148-8d25-1448984598b4" name="Default Changelist" comment="" />
+    <list default="true" id="d40ec029-dbf5-4148-8d25-1448984598b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1cLWOc5rxel2RPBst0urt8tGAXc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,18 +59,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590308322998</updated>
-      <workItem from="1590308329383" duration="524000" />
+      <workItem from="1590308329383" duration="778000" />
     </task>
+    <task id="LOCAL-00001" summary="数据结构项目">
+      <created>1590308964229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590308964229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据结构项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构项目" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1590308961869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590308961869" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590308907991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590308907991" />
+    <state x="541" y="254" key="Github.ShareDialog" timestamp="1590309104491">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="541" y="254" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1590309104491" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1590308669794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
