@@ -5,7 +5,7 @@ package com.linkedList;
  * @Date: 2020/6/6 22:25
  * @Description：双向链表
  */
-public class DoubleLInkedList {
+public class DoubleLinkedList {
 
 
 }
