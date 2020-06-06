@@ -97,7 +97,7 @@
       <workItem from="1591363379731" duration="1189000" />
       <workItem from="1591365011200" duration="170000" />
       <workItem from="1591365211653" duration="312000" />
-      <workItem from="1591452876133" duration="228000" />
+      <workItem from="1591452876133" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构项目">
       <created>1590308964229</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591453013558</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="单链表">
+      <created>1591453300044</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591453300044</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,25 +143,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据结构项目" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="单链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="单链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1591452993356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1591452993356" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1591453011664">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1591453298588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591453011664" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591453298588" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590308907991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590308907991" />
-    <state x="541" y="254" key="Github.ShareDialog" timestamp="1590309141130">
+    <state x="541" y="254" key="Github.ShareDialog" timestamp="1591453344908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="541" y="254" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1590309141130" />
+    <state x="541" y="254" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1591453344908" />
     <state width="1323" height="46" key="GridCell.Tab.0.bottom" timestamp="1590760281185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -175,6 +183,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591453283404" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591453423269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591453423269" />
     <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591453157766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
