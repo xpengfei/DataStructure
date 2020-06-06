@@ -1,4 +1,4 @@
-package com.linkedList;
+package com.linkedlist;
 
 /**
  * @Author: xpengfei
