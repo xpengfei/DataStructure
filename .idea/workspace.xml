@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d40ec029-dbf5-4148-8d25-1448984598b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +10,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\WorkSpcae\DataStructure\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,7 +50,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,7 +88,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590308322998</updated>
-      <workItem from="1590308329383" duration="778000" />
+      <workItem from="1590308329383" duration="2398000" />
+      <workItem from="1590757958930" duration="1126000" />
+      <workItem from="1590905501154" duration="4990000" />
+      <workItem from="1591363379731" duration="1189000" />
+      <workItem from="1591365011200" duration="170000" />
+      <workItem from="1591365211653" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构项目">
       <created>1590308964229</created>
@@ -68,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590308964229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据结构项目">
+      <created>1590309114658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590309114658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,21 +120,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="数据结构项目" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1590308961869">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1590309113272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590308961869" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590309113272" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590308907991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590308907991" />
-    <state x="541" y="254" key="Github.ShareDialog" timestamp="1590309104491">
+    <state x="541" y="254" key="Github.ShareDialog" timestamp="1590309141130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="541" y="254" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1590309104491" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1590308669794">
+    <state x="541" y="254" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1590309141130" />
+    <state width="1323" height="46" key="GridCell.Tab.0.bottom" timestamp="1590760281185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590308669794" />
+    <state width="1323" height="46" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590760281185" />
+    <state width="1323" height="46" key="GridCell.Tab.0.center" timestamp="1590760281184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="46" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590760281184" />
+    <state width="1323" height="46" key="GridCell.Tab.0.left" timestamp="1590760281184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="46" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590760281184" />
+    <state width="1323" height="46" key="GridCell.Tab.0.right" timestamp="1590760281185">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="46" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590760281185" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1591365515836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591365515836" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1590907480504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590907480504" />
   </component>
 </project>
