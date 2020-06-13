@@ -12,7 +12,7 @@ public class SingleLinkedList {
     /**
      * 头结点
      */
-    private Node head = null;
+    protected Node head = null;
 
     /**
      * 添加节点，链尾插入节点
@@ -140,9 +140,66 @@ public class SingleLinkedList {
         }
     }
 
+    /**
+     * 查找数据在链表中第一次出现的位置
+     *
+     * @param nodeHead 链表的头结点
+     * @param data     待查找数据
+     * @return 返回数据在链表中的位置，-1表示链表中不存在待查找数据
+     */
+    public int findNodeIndex(Node nodeHead, int data) {
+        int index = 0;
+        while (nodeHead != null) {
+            ++index;
+            if (nodeHead.data == data) {
+                return index;
+            }
+            nodeHead = nodeHead.next;
+        }
+        return -1;
+    }
+
+
+    /**
+     * 将数据data插入到链表中的第index个位置
+     *
+     * @param data  待插入数据
+     * @param index 待插入的位置
+     */
+    public void insertDataToLinkedListByIndex(int data, int index) {
+        if (index < 0) {
+            return;
+        }
+        if (head == null) {
+            head = new Node(data);
+            return;
+        }
+        // index 大于链表长度，插到链表尾部
+        if (index > this.getLinkedListLen()) {
+            Node node = new Node(data);
+            Node tempNode = head;
+            while (tempNode.next != null) {
+                tempNode = tempNode.next;
+            }
+            tempNode.next = node;
+            node.next = null;
+            return;
+        }
+        //index位于链表中
+        if (index == 0) {
+            this.headAddNode(data);
+            return;
+        }
+        // 插入到最后一位
+
+        //插入到链表中间
+
+
+    }
 
     /**
      * 反转链表
+     *
      * @return 反转后的链表的头结点
      */
     public Node reverseLinkedList() {
@@ -164,7 +221,7 @@ public class SingleLinkedList {
         System.out.println("--------------------链表输出开始----------------------");
         Node temp = head;
         while (temp != null) {
-            System.out.print(temp.data+"\t");
+            System.out.print(temp.data + "\t");
             temp = temp.next;
         }
         System.out.println();
