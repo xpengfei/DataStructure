@@ -207,6 +207,21 @@ public class SingleLinkedListTest {
         }
         System.out.println();
     }
+
+    /**
+     * 查找数据第一次在链表中出现的位置
+     */
+    @Test(priority = 12)
+    public void findNodeIndex() {
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        singleLinkedList.tailAddNode(9);
+        singleLinkedList.tailAddNode(2);
+        singleLinkedList.tailAddNode(8);
+        singleLinkedList.tailAddNode(13);
+        singleLinkedList.tailAddNode(10);
+        singleLinkedList.tailAddNode(6);
+        Assert.assertEquals(singleLinkedList.findNodeIndex(singleLinkedList.head,13),4);
+    }
 }
 
 
