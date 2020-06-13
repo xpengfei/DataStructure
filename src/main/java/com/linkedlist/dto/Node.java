@@ -1,7 +1,7 @@
 package com.linkedlist.dto;
 
 /**
- * @Author: xpeng
+ * @Author: xpengfei
  * @Date: 2020/6/6 23:35
  * @Description：节点实体类
  */
@@ -15,12 +15,6 @@ public class Node {
      * 节点的指针域，用于存储下一个节点的位置
      */
     public Node next;
-
-    /**
-     * 无参构造方法
-     */
-    public Node() {
-    }
 
     /**
      * 初始化node时给数据域赋值
@@ -37,22 +31,6 @@ public class Node {
      */
     public Node(int data, Node next) {
         this.data = data;
-        this.next = next;
-    }
-
-    public int getData() {
-        return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
-    }
-
-    public Node getNext() {
-        return next;
-    }
-
-    public void setNext(Node next) {
         this.next = next;
     }
 }
