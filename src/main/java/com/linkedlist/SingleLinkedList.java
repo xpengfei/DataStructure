@@ -167,6 +167,7 @@ public class SingleLinkedList {
      * @param index 待插入的位置
      */
     public void insertDataToLinkedListByIndex(int data, int index) {
+
         if (index < 0) {
             return;
         }
@@ -181,20 +182,29 @@ public class SingleLinkedList {
             while (tempNode.next != null) {
                 tempNode = tempNode.next;
             }
+            //插入到链表尾部
             tempNode.next = node;
             node.next = null;
             return;
         }
-        //index位于链表中
-        if (index == 0) {
-            this.headAddNode(data);
-            return;
-        }
-        // 插入到最后一位
-
         //插入到链表中间
-
-
+        Node node = new Node(data);
+        Node tempNode = head;
+        while (tempNode != null) {
+            index--;
+            // 找到待插入位置的前一个node结点，index=0表示要插到链表头结点位置
+            if (index == 0 || index == 1) {
+                break;
+            }
+            tempNode = tempNode.next;
+        }
+        if (index == 0) {
+            node.next = tempNode;
+            head = node;
+        } else {
+            node.next = tempNode.next;
+            tempNode.next = node;
+        }
     }
 
     /**

@@ -222,6 +222,62 @@ public class SingleLinkedListTest {
         singleLinkedList.tailAddNode(6);
         Assert.assertEquals(singleLinkedList.findNodeIndex(singleLinkedList.head,13),4);
     }
+
+    /**
+     * 测试插入
+     */
+    @Test(priority = 13)
+    public void insertDataToLinkedListByIndex(){
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        System.out.println("****************插入之前***链表为空****0******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之前***链表为空****0******************");
+        singleLinkedList.insertDataToLinkedListByIndex(66,-2);
+        System.out.println("****************插入之后***链表为空，插入位置为负****0******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之后***链表为空，插入位置为负****0******************");
+
+        System.out.println("****************插入之前***链表为空****1******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之前****链表为空***1******************");
+        singleLinkedList.insertDataToLinkedListByIndex(1,2);
+        System.out.println("****************插入之后*****index>length****1****************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之后****index>length*****1****************");
+
+        System.out.println("****************插入之前*****链表不为空**2******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之前******链表不为空*2******************");
+        singleLinkedList.insertDataToLinkedListByIndex(23,6);
+        System.out.println("****************插入之后***index>length****index>length**2****************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之后***index>length****index>length**2****************");
+
+        System.out.println("****************插入之前*******3******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之前*******3******************");
+        singleLinkedList.insertDataToLinkedListByIndex(46,2);
+        System.out.println("****************插入之后***插到尾结点位置******3****************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之后***插到尾结点位置******3****************");
+
+        System.out.println("****************插入之前*******4******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之前*******4******************");
+        singleLinkedList.insertDataToLinkedListByIndex(990,1);
+        System.out.println("****************插入之后***插到头结点位置******4****************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之后***插到头结点位置******4****************");
+
+
+        System.out.println("****************插入之前*******5******************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之前*******5******************");
+        singleLinkedList.insertDataToLinkedListByIndex(666,3);
+        System.out.println("****************插入之后***插到链表中间******5****************");
+        singleLinkedList.printLinkList();
+        System.out.println("****************插入之后***插到链表中间******5****************");
+    }
 }
 
 
