@@ -54,6 +54,7 @@ public class DoubleLinkedListTest {
 
         System.out.println("***************删除尾结点789*******************");
         doubleLinkedList.deleteNode(789);
+
         doubleLinkedList.printLinkList();
 
         System.out.println("***************删除中间结点233*******************");
