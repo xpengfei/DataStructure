@@ -13,6 +13,14 @@ public class CircleLinkedList {
      */
     private CircleNode head;
 
+    /**
+     * 添加结点
+     *
+     * @param newNode 待添加结点
+     */
+    public void addNode(CircleNode newNode) {
+
+    }
 
 
 }
