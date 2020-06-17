@@ -10,14 +10,14 @@ public class CircleNode {
     /**
      * 数据域，存储数据
      */
-    protected int data;
+    protected Integer data;
 
     /**
      * 指针域，存储下一个结点位置
      */
     protected CircleNode next;
 
-    public CircleNode(int data) {
+    public CircleNode(Integer data) {
         this.data = data;
     }
 
