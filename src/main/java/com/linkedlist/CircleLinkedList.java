@@ -28,14 +28,12 @@ public class CircleLinkedList {
         if (head == null) {
             head = new CircleNode(null);
             tail = new CircleNode(null);
-
             head.setNext(newNode);
             newNode.setNext(tail);
             tail.setNext(head);
         }
-
-
         CircleNode circleNode = head;
+        // 链表中无数据，只有首尾结点时
         if (circleNode.getNext().getNext() == head) {
             circleNode.setNext(newNode);
             newNode.setNext(tail);
