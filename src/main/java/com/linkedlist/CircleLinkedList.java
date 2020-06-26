@@ -1,7 +1,6 @@
 package com.linkedlist;
 
 import com.linkedlist.dto.CircleNode;
-import com.linkedlist.dto.DoubleNode;
 
 /**
  * @Author: xpengfei
